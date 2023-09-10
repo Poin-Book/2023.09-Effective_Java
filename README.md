@@ -1,6 +1,6 @@
 # Effective Java 3/E 스터디
 
-[다나] - [Effective Java 3/E](https://product.kyobobook.co.kr/detail/S000001033066)
+[책] - [Effective Java 3/E](https://product.kyobobook.co.kr/detail/S000001033066)
 
 > 해당 Repository는 스터디를 진행하면서 알게된 지식을 공유 및 정리하고,<br>
 > 이해 안되는 부분을 질문하고 해결하는 공간입니다.
