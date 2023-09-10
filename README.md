@@ -1,49 +1,47 @@
-# 스터디 제목
+# Effective Java 3/E 스터디
 
-[공부 자료] - [자료명](링크) 
+[다나] - [Effective Java 3/E](https://product.kyobobook.co.kr/detail/S000001033066)
 
-> 해당 Repository는 스터디를 진행하면서 알게된 지식을 공유 및 정리하고,
+> 해당 Repository는 스터디를 진행하면서 알게된 지식을 공유 및 정리하고,<br>
 > 이해 안되는 부분을 질문하고 해결하는 공간입니다.
 
-> 강의 내용에 대한 실습은 각자의 Repository에서 진행하며 관련 코드를
+<br>
+
+> 강의 내용에 대한 실습은 각자의 Repository에서 진행하며 관련 코드를<br>
 > 공유하고 싶은 경우 markdown 문법을 활용 혹은 개인 Repository를 링크하는 식으로 진행합니다.
 
-## 목표 (예시)
+## 목표
 
-<!--
-아래의 목표는 예시이며 자유롭게 변경하시면 됩니다.
--->
-
-- 자바 ORM 표준 JPA 프로그래밍 - 기본편 강의 수강
-- JPA의 대한 기본적인 배경과 개념 이해
-- 스터디 활동을 기록으로 남기기
+- Java에 대해 더 깊이있게 이해한다.
+- 각 아이템에 대해 이해하고, 실제로 사용해보며 익힌다.
+- 서로의 지식을 공유하고, 함께 성장한다.
 
 ## 스터디 참가자
 
-<!--
-아래의 표는 예시이며 마음대로 작성을 바꾸셔도 좋습니다.
--->
-
-> 인원: 6명
+> 인원: 8명
 
 <center>
 
-|![루카](https://avatars.githubusercontent.com/u/98688494?v=4)|![루카](https://avatars.githubusercontent.com/u/98688494?v=4)|![루카](https://avatars.githubusercontent.com/u/98688494?v=4)|![루카](https://avatars.githubusercontent.com/u/98688494?v=4)|![루카](https://avatars.githubusercontent.com/u/98688494?v=4)|![루카](https://avatars.githubusercontent.com/u/98688494?v=4)|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|[루카](https://github.com/luke0408)|[최선규](https://github.com/luke0408)|[감자](https://github.com/luke0408)|[예시](https://github.com/luke0408)|[참여자](https://github.com/luke0408)|[리스트](https://github.com/luke0408)|
+|![다나](https://avatars.githubusercontent.com/u/85955988?v=4)|![럭키](https://avatars.githubusercontent.com/u/110045522?v=4)|![루카](https://avatars.githubusercontent.com/u/98688494?v=4)|![루키](https://avatars.githubusercontent.com/u/74547868?v=4)|![밀리](https://avatars.githubusercontent.com/u/87763333?v=4)|![피터](https://avatars.githubusercontent.com/u/97747863?v=4)|![워니](https://avatars.githubusercontent.com/u/116738827?v=4)|![캐슬](https://avatars.githubusercontent.com/u/62132755?v=4)|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|[다나](https://github.com/joowojr)|[럭키](https://github.com/Hyunstone)|[루카](https://github.com/luke0408)|[루키](https://github.com/destiny3912)|[밀리](https://github.com/hw130)|[피터](https://github.com/wcorn)|[워니](https://github.com/kiwijomn)|[캐슬](https://github.com/hosung-222)|
 
 </center>
 
 ## 스터디 개요
 
-- 기간: 0000.00.00 ~ 0000.00.00 (0주)
-- 시간: "스터디 시간"
-- 장소: "스터디 장소"
+- 기간: 2023.09.20 ~ 
+- 시간: 매주 수요일 21:00 ~ 23:00
+- 장소: 디스코드
 - 스터디 계획
-  - 0주차: 00.00(일)
-    - Topic 1. "주제명"
-    - Topic 2. "주제명"
-
+  - 1주차: 09.20(수)
+    - Item 01. 생성자 대신 정적 팩터리 메서드를 고려하라
+    - Item 02. 생성자에 매개변수가 많다면 빌더를 고려하라
+    - Item 03. private 생성자나 열거 타입으로 싱글턴임을 보증하라
+    - Item 04. 인스턴스화를 막으려거든 private 생성자를 사용하라
+    - Item 05. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라
+    - Item 06. 불필요한 객체 생성을 피하라
+    - Item 07. 다 쓴 객체 참조를 해제하라
 
 ## 스터디 방식
 
