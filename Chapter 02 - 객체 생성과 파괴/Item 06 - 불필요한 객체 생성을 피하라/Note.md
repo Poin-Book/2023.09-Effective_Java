@@ -126,7 +126,8 @@
         - 그렇다면 반환하는 Set 객체는 항상 같을까 다를까
         - 이것도 한번 코드를 까보자
             
-            ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/b51c3cc3-2272-4fdf-b0b3-e40da53843dc/b42e4fce-a2f9-4f9c-a899-62dd30f71002/Untitled.png)
+            ![image](https://github.com/Poin-Book/2023.09-Effective_Java/assets/74547868/21514350-02e9-474e-b9b5-525275ba5ef1)
+
             
             - Map 인터페이스를 까서 들어가다 보면 다음과 같은 코드 라인을 볼 수 있다.
                 
