@@ -31,7 +31,6 @@
 ## 스터디 개요
 
 - 기간: 2023.09.20 ~ 
-- 시간: 매주 수요일 21:00 ~ 23:00
 - 장소: 디스코드
 - 스터디 계획
   - 1주차: 09.20(수)
@@ -42,6 +41,15 @@
     - Item 05. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라
     - Item 06. 불필요한 객체 생성을 피하라
     - Item 07. 다 쓴 객체 참조를 해제하라
+  - 2주차: 09.25(월)
+    - Item 08. finalizer와 cleaner 사용을 피하라
+    - Item 09. try-finally보다는 try-with-resources를 사용하라
+    - Item 10. equals는 일반 규약을 지켜 재정의하라
+    - Item 11. equals를 재정의하려거든 hasCode도 재정의하라
+    - Item 12. toString을 항상 재정의하라
+    - Item 13. clone 재정의는 주의해서 진행하라
+    - Item 14. Comparable을 구현할지 고려하라
+
 
 ## 스터디 방식
 
