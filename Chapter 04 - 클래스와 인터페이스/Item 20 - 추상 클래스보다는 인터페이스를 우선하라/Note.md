@@ -1,4 +1,4 @@
-# 제목
+# 추상 클래스보다는 인터페이스를 우선하라
 
 > 작성자: 밀리
 
@@ -89,7 +89,7 @@ public interface SingerSongwriter extends Singer, Songwriter {
   - 이렇게하면 단순히 골격 구현을 확장하는 것만으로 이 인터페이스를 구현하는 데 필요한 일이 대부분 완료되는데 이를 템플릿 메서드 패턴이라 한다.
   - 관례상 인터페이스 이름이 Interface라면 그 골격 구현 클래스의 이름은 AbstractInterface로 짓는다.
     - ex) AbstractCollection, AbstractSet, AbstractList, AbstractMap
-##### 골격 구현을 사용해 온성한 구체 클래스
+##### 골격 구현을 사용해 완성한 구체 클래스
 ```java
 public class AbstractSkeletalConcreteClass {
     static List<Integer> intArrayAsList(int[] a) {
