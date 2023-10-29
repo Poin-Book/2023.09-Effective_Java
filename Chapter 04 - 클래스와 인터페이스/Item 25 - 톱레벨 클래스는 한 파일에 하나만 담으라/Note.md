@@ -3,6 +3,9 @@
 > 작성자: {밀리}
 
 ## 목차
+- [제목의 의미](#제목의_의미)
+- [왜 한파일에 담아야 될까?](#왜_한파일에_담아야_될까?)
+- [해결 방법](#해결_방법)  
 
 
 ### 제목의 의미
@@ -16,14 +19,6 @@
 
 
  
-#### Main.java
-```java
-public class Main {
-    public static void main(String[] args) {
-        System.out.println(Utensil.NAME + Dessert.NAME);
-    }
-}
-```
 #### Utensil.java
 ```java
 class Utensil {
@@ -33,7 +28,12 @@ class Utensil {
 class Dessert {
     static final String NAME = "cake";
 }
-```
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(Utensil.NAME + Dessert.NAME);
+    }
+}
+```  
 #### Dessert.java
 ```java
 class Utensil {
@@ -58,7 +58,6 @@ javac Dessert.java Main.java // potpie 출력
     - 그래서 ```javac Main.java Dessert.java```의 경우 클래스가 중복으로 선언되었다고 알린다.  
   - ```Dessert.java```가 먼저 인수에 들어왔을 때는, 자바는 Utensil 클래스와 Dessert 클래스의 정의를 불러와 놓는다.  
     - 그래서 ```javac Dessert.java Main.java```의 경우 "potpie"가 출력된다.
-    - 
 - 즉, **컴파일러에 어느 소스파일을 먼저 건네느냐에 따라서 정상 동작할수도 또는 컴파일 오류가 발생할 수도 있다.**  
 - 파일을 나누면 위와 같은 복잡한 동작원리도 알 필요 없고, 잠재적 에러도 없으므로 ```Utensil.java```와 ```Dessert.java``` 각 파일별로 클래스는 1개씩만 선언하는 것이 좋다.
 
