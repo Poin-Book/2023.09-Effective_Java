@@ -19,6 +19,14 @@
 
 
  
+#### Main.java
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(Utensil.NAME + Dessert.NAME);
+    }
+}
+```
 #### Utensil.java
 ```java
 class Utensil {
@@ -28,12 +36,10 @@ class Utensil {
 class Dessert {
     static final String NAME = "cake";
 }
-public class Main {
-    public static void main(String[] args) {
-        System.out.println(Utensil.NAME + Dessert.NAME);
-    }
-}
-```  
+```
+- 이때 Main을 실행하면 pancake가 출력될 것이다.
+- 그러나 똑같은 아래와 같이 두 클래스를 담은 Dessert.java라는 파일을 만들었다고 하자.
+
 #### Dessert.java
 ```java
 class Utensil {
@@ -44,7 +50,6 @@ class Dessert {
     static final String NAME = "pie";
 }
 ```
-- 위 코드들은 ```Utensil.java```와 ```Dessert.java```라는 두 개의 파일에 중복으로 정의된 2개의 클래스의 예이다.
 - 위와 같은 경우 javac 명령어에 들어가는 인수에 따라 실행결과가 달라진다.
 ```
 javac Main.java Dessert.java: 컴파일 에러, Utensil과 Dessert 클래스가 중복 정의되었습니다.
