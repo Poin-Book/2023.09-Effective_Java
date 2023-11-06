@@ -12,7 +12,6 @@
 - 매개변수화 타입을 받는 정적 유틸리티 메서드(static)는 보통 제네릭이다.  
     - ```Collections```의 ```binarySearch```, ```sort``` 등 알고리즘 메서드는 모두 제네릭이다.  
 - 제네릭 메서드 작성법은 제네릭 타입 작성법과 비슷하다.  
-- 타입 매개변수 목록은 메서드의 제한자와 반환 타입 사이에 온다.
 
 ```java
 public static Set union(Set s1, Set s2) {
