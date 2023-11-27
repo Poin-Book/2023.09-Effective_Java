@@ -94,7 +94,7 @@ for (Iterator<Face> i = faces.iterator(); i.hasNext();) {
 for (Iterator<Suit> i = suits.iterator(); i.hasNext(); ) {
   Suit suit = i.next();
   for (Iterator<Rank> j = ranks.iterator(); j.hasNext(); )
-    deck.add(new Card(i.next(), j.next())); // 문제 발생
+    deck.add(new Card(suit, j.next())); // 문제 해결
 }
 ```
 - 코드를 올바르게 동작하게 바꾸었지만, 아직은 코드가 더러워보인다.
