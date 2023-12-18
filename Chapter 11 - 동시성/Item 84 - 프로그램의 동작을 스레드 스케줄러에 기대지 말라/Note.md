@@ -14,7 +14,7 @@
 
 > 💡 **스레드 스케줄러란?**
 
-![image](https://github.com/kiwijomn/test-repo/assets/116738827/4d5b423a-5634-4c8b-9bd4-a3a05600cbaf)
+![image](https://github.com/Poin-Book/2023.09-Effective_Java/assets/116738827/9b6fa332-cc57-4097-8abb-e0e8110746d1)
 
 - 스레드의 실행 시점을 관리하는 역할을 한다.
     - 언제 실행 가능한 상태로 움직여야 할지
