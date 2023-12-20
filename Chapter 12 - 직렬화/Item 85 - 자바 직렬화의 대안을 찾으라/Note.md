@@ -62,7 +62,8 @@ return serialize(root);
 
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/66cd63ec-50d7-4011-9e2a-0ccf0042806a/416faf93-986a-485f-94ca-2da14fe51578/Untitled.png)
+![image](https://github.com/Poin-Book/2023.09-Effective_Java/assets/85955988/c73168bf-1145-4e06-8427-ec63132a9ee1)
+
 
 - 역직렬화 폭탄 : 역직렬화에 시간이 오래 걸리는 짧은 스트림
 - 이러한 역직렬화 폭탄을 역직렬화하는 것만으로도 서비스 거부 공격에 쉽게 노출될 수 있다.
